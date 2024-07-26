@@ -46,11 +46,11 @@
   },
   "lidar_configs" : [
     {
-      "ip" : "192.168.1.172",
+      "ip" : "192.168.1.12",
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
       "extrinsic_parameter" : {
-        "roll": 0.0,
+        "roll": 180,
         "pitch": 0.0,
         "yaw": 0.0,
         "x": 0,
@@ -63,7 +63,7 @@
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
       "extrinsic_parameter" : {
-        "roll": 0.0,
+        "roll": 3.14159,
         "pitch": 0.0,
         "yaw": 0.0,
         "x": 0,
