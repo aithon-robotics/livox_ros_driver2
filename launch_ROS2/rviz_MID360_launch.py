@@ -38,7 +38,7 @@ def generate_launch_description():
         package='livox_ros_driver2',
         executable='livox_ros_driver2_node',
         name='livox_lidar_publisher',
-        output='screen',
+        # output='screen',
         parameters=livox_ros2_params
         )
 
@@ -50,7 +50,7 @@ def generate_launch_description():
     #     )
 
     return LaunchDescription([
-        livox_driver,
+        livox_driver
         #"""  """livox_rviz,
         # launch.actions.RegisterEventHandler(
         #     event_handler=launch.event_handlers.OnProcessExit(
